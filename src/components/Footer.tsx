@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="py-16 px-4 relative z-10 border-t border-slate-800">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-bold">
@@ -46,19 +46,19 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Learn</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Space Facts</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors">Mission Guides</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Educational Resources</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors">Teacher Portal</a></li>
+              <li><Link to="/space-facts" className="hover:text-orange-400 transition-colors">Space Facts</Link></li>
+              <li><Link to="/mission-guides" className="hover:text-cyan-400 transition-colors">Mission Guides</Link></li>
+              <li><Link to="/educational-resources" className="hover:text-orange-400 transition-colors">Educational Resources</Link></li>
+              <li><Link to="/teacher-portal" className="hover:text-cyan-400 transition-colors">Teacher Portal</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Connect</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Community</a></li>
-              <li><a href="#" className="hover:text-cyan-400 transition-colors">Newsletter</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Feedback</a></li>
+              <li><Link to="/community" className="hover:text-orange-400 transition-colors">Community</Link></li>
+              <li><Link to="/newsletter" className="hover:text-cyan-400 transition-colors">Newsletter</Link></li>
+              <li><Link to="/feedback" className="hover:text-orange-400 transition-colors">Feedback</Link></li>
               <li><Link to="/about" className="hover:text-cyan-400 transition-colors">About Us</Link></li>
             </ul>
           </div>
@@ -73,7 +73,7 @@ const Footer = () => {
             <div className="text-gray-400 text-sm">
               <span>Data sourced from </span>
               <a href="#" className="text-orange-400 hover:text-orange-300 transition-colors">NASA</a>
-              <span> • Powered by imagination</span>
+              <span> • Powered by Tech</span>
             </div>
           </div>
           
