@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users, Rocket, Star, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -8,21 +7,21 @@ const About = () => {
   const teamMembers = [
     {
       name: "Swastik Sharma",
-      role: "Project Lead & Innovator",
-      description: "Passionate about space technology and creating immersive educational experiences. Leading the vision of HeardInSpace.",
-      skills: ["Leadership", "Space Technology", "Innovation", "Project Management"]
+      role: "Front End Developer & Innovator",
+      description: "Passionate about creating innovative user interfaces and immersive web experiences. Leading the frontend development of HeardInSpace.",
+      skills: ["React", "TypeScript", "UI/UX Design", "Innovation"]
     },
     {
       name: "Gunjan Hotwani", 
-      role: "Creative Designer & Experience Architect",
-      description: "Creative mind behind the stunning visual design and engaging user experiences of HeardInSpace.",
-      skills: ["Creative Design", "User Experience", "Visual Arts", "Innovation"]
+      role: "Front End Developer & Creative Designer",
+      description: "Creative mind behind the stunning visual design and engaging user experiences of HeardInSpace with expertise in frontend development.",
+      skills: ["Frontend Development", "Creative Design", "Visual Arts", "User Experience"]
     },
     {
       name: "Shivansh Anand Thakur",
-      role: "Data Specialist & Research Analyst", 
-      description: "Expert in space data analysis and creating educational content that makes complex concepts accessible.",
-      skills: ["Data Analysis", "Research", "Content Creation", "Space Science"]
+      role: "Back End Developer & Data Analyst", 
+      description: "Expert in backend systems and space data analysis, creating robust server solutions and meaningful insights from complex datasets.",
+      skills: ["Backend Development", "Data Analysis", "API Design", "Database Management"]
     }
   ];
 
